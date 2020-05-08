@@ -82,5 +82,5 @@ such icon is clicked.
 │   └───images                              # Stores images used by User Interfaces of the website
 │       └───garbage_locations               # Stores user uploaded images of garbage locations
 ├───home.css
-└───index.php                               # Main entry point to the website('Home' webpage)
+└───index.php                               # Main entry point to the website ('Home' Webpage)
 ```
