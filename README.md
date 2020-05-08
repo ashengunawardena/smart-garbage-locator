@@ -47,24 +47,40 @@ such icon is clicked.
 ### Directory Structure
 
 ```
-├───database-backup 
+├───database-backup
+│   └───sgl.sql
 ├───p
 │   ├───approved-reports
+│   │   ├───approved_reports.css
+│   │   └───index.php 
 │   ├───articles
+│   │   ├───articles.css
+│   │   └───index.php 
 │   ├───garbage-locations
+│   │   ├───garbage_locations.css
+│   │   └───index.php 
 │   ├───incidents
+│   │   ├───incidents.css
+│   │   └───index.php 
 │   ├───reports
+│   │   ├───reports.css
+│   │   └───index.php 
 │   ├───sign-in
+│   │   ├───sign_in.css
+│   │   └───index.php 
 │   └───user-accounts
+│       ├───user_accounts.css
+│       └───index.php 
 ├───php
-│       └───vendor
-│           └───phpmailer
-│               └───phpmailer
-│                   ├───language
-│                   └───src
-├───resources   
-    ├───css
-    ├───fonts
-    └───images
-        └───garbage_locations
+│   │───dependencies
+│   ├───mail.php
+│   └───redirect_user.php
+│───resources
+│   ├───css
+│   │   └───fonts.css 
+│   ├───fonts
+│   └───images
+│       └───garbage_locations
+├───home.css
+└───index.php
 ```
