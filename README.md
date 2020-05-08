@@ -89,4 +89,4 @@ such icon is clicked.
 
 #### Home Page
 
-![Home Page Image] (https://github.com/ashengunawardena/smart-garbage-locator/blob/master/user-interfaces/home.png)
+![Home](https://user-images.githubusercontent.com/58177462/81407466-13e34600-9159-11ea-9e43-57ce7a04c942.png)
