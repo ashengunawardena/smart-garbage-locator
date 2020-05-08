@@ -10,7 +10,7 @@ body{
 #container{
 	width: 100vw;
 	height: 85vh;
-	background-image: url("../images/garbage.jpg");
+	background-image: url("resources/images/garbage.jpg");
 }
 
 #container img{

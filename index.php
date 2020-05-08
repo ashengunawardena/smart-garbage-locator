@@ -20,7 +20,7 @@
 
 <head>
 	<title>SGL - Home</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/home.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/fonts.css">
 	<link rel="icon" type="image/jpg" href="resources/images/sgl_favicon.jpg">
 </head>
