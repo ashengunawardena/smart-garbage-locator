@@ -89,8 +89,16 @@ such icon is clicked.
 
 #### Home - Page
 
-![Home Page](https://user-images.githubusercontent.com/58177462/81407466-13e34600-9159-11ea-9e43-57ce7a04c942.png)
+![Home - Page](https://user-images.githubusercontent.com/58177462/81407466-13e34600-9159-11ea-9e43-57ce7a04c942.png)
 
 #### Sign In - Page
 
-![Sign In Page](https://user-images.githubusercontent.com/58177462/81408113-46da0980-915a-11ea-925d-b49e204b8dd9.png)
+![Sign In - Page](https://user-images.githubusercontent.com/58177462/81408113-46da0980-915a-11ea-925d-b49e204b8dd9.png)
+
+#### Reports (New Report) - Page
+
+![Reports (New Report) - Page](https://user-images.githubusercontent.com/58177462/81408367-bbad4380-915a-11ea-9ea7-6cbd653aae6f.png)
+
+#### Reports (My Reports) - Page
+
+![#### Reports (My Reports) - Page](https://user-images.githubusercontent.com/58177462/81408519-016a0c00-915b-11ea-84f6-ba035b61d6b5.png))
