@@ -46,8 +46,8 @@ such icon is clicked.
 
 ### Directory Structure
 
-''' ├───database-backup 
-
+```
+├───database-backup 
 ├───p
 │   ├───approved-reports
 │   ├───articles
@@ -67,3 +67,4 @@ such icon is clicked.
     ├───fonts
     └───images
         └───garbage_locations
+```
