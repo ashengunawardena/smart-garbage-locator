@@ -131,10 +131,22 @@ such icon is clicked.
 
 ![Garbage Locations - Page](https://user-images.githubusercontent.com/58177462/81408558-1181eb80-915b-11ea-98de-34d34eb77cd4.png)
  
+### Technology Stack
 
-## The End
+#### Front-End Languages
 
+* HTML
+* CSS
+* JS - Used for user interaction and client side validation.
 
+#### Back-End Languages
 
+* PHP
 
+#### External Libraries
 
+* PHPMailer - Used for sending emails.
+
+#### Database
+
+* MySQL
