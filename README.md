@@ -101,4 +101,40 @@ such icon is clicked.
 
 #### Reports (My Reports) - Page
 
-![#### Reports (My Reports) - Page](https://user-images.githubusercontent.com/58177462/81408519-016a0c00-915b-11ea-84f6-ba035b61d6b5.png))
+![#### Reports (My Reports) - Page](https://user-images.githubusercontent.com/58177462/81408519-016a0c00-915b-11ea-84f6-ba035b61d6b5.png)
+
+#### Reported Incidents - Page
+
+![Reported Incidents - Page](https://user-images.githubusercontent.com/58177462/81408505-f9aa6780-915a-11ea-8194-fd6f41f9e5fe.png)
+
+#### Reported Incidents (Garbage Location on Map) - View
+
+![Reported Incidents (Garbage Location on Map) - View](https://user-images.githubusercontent.com/58177462/81408512-fd3dee80-915a-11ea-8d7e-81fcd15e5c03.png)
+
+#### User Accounts - Page
+
+![User Accounts - Page](https://user-images.githubusercontent.com/58177462/81408528-062ec000-915b-11ea-92fc-b3503e4c4206.png)
+
+#### Approved Reports - Page
+
+![Approved Reports - Page](https://user-images.githubusercontent.com/58177462/81408538-07f88380-915b-11ea-8f8a-f73dd2475cbd.png)
+
+#### Articles (View for Admin Users) - Page
+
+![Articles (View for Admin Users) - Page](https://user-images.githubusercontent.com/58177462/81408548-0b8c0a80-915b-11ea-912d-3a2098018305.png)
+
+#### Articles (View for Non-Admin Users) - Page
+
+![Articles (View for Non-Admin Users) - Page](https://user-images.githubusercontent.com/58177462/81408553-0e86fb00-915b-11ea-8515-2737597d3dbf.png)
+
+#### Garbage Locations - Page
+
+![Garbage Locations - Page](https://user-images.githubusercontent.com/58177462/81408558-1181eb80-915b-11ea-98de-34d34eb77cd4.png)
+ 
+
+## The End
+
+
+
+
+
