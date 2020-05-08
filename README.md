@@ -84,3 +84,9 @@ such icon is clicked.
 ├───home.css
 └───index.php                               # Main entry point to the website ('Home' Webpage)
 ```
+
+### User Interfaces
+
+#### Home Page
+
+![Home Page Image] (https://github.com/ashengunawardena/smart-garbage-locator/blob/master/user-interfaces/home.png)
