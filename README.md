@@ -147,6 +147,11 @@ such icon is clicked.
 
 * PHPMailer - Used for sending emails.
 
+#### External APIs
+
+* Google Sign-In API - Used to integrate Google Sign-in functionality to the website.
+* Google Maps API - Used to integrate Google Maps to the website to display garbage locations.
+
 #### Database
 
 * MySQL
