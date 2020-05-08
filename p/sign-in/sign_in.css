@@ -1,0 +1,223 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	background-image: url("../../resources/images/garbage.jpg");
+	overflow: hidden;
+}
+
+#container{
+	width: 30vw;
+	height: 75vh;
+	background: #32CD32;
+	margin: auto;
+	position: relative;
+	top: 10vh;
+	border-radius: 3vw;
+	text-align: center;
+	padding-top: 5vh;
+}
+
+#container h1{
+	font-family: Coneria Script;
+	font-size: 2rem;
+}
+
+#container h2{
+	font-family: Friendly Schoolmates;
+	font-size: 1.5rem;
+	position: relative;
+	top: -2vh;
+}
+
+#container h3{
+	font-family: Friendly Schoolmates;
+	font-size: 1.25rem;
+	color: #696969;
+	background: gold;
+	width: 10vw;
+	height: 4vh;
+	float: left;
+	padding-top: 1vh;
+	position: relative;
+	left: 5.5vw;
+}
+
+#container h3:hover{
+	color: black;
+	transition: color 1s;
+	cursor: pointer;
+}
+
+#container p{
+	font-family: Friendly Schoolmates;
+	font-size: 1.25rem;
+	color: black;
+	width: 6vw;
+	height: 2vh;
+	position: relative;
+	left: 12vw;
+	top: 1vh;
+}
+
+#container img{
+	width: 7.5vw;
+	position: relative;
+	top: 20vh;
+	left: -8.5vw;
+	border-radius: 2vw;
+	float: left;
+}
+
+.g-signin2{
+	position: relative;
+	top: 7vh;
+	left: 4.75vw;
+}
+
+#sign-in{
+	width: 24.75vw;
+	height: 12vw;
+	position: relative;
+	top: 1vh;
+	display: none;
+	padding-left: 5.25vw;
+}
+
+#sign-in p{
+	top: 0;
+	text-align: left;
+	float: left;
+}
+
+#sign-in h3{
+	position: relative;
+	left: -1vw;
+}
+
+#sign-in input[type=submit]{
+	height: 5vh;
+	width: 10vw;
+	font-size: 1.25rem;
+	padding-top: 0.5vh;
+	position: relative;
+	left: -1vw;
+	top: 7.6vh;
+}
+
+#sign-in .errorMessageRegister{
+	left: -5.25vw;
+}
+
+input{
+	float: left;
+	border-style: none;
+	border-radius: 0.25vw;
+	background: white;
+	height: 3vh;
+	width: 11.5vw;
+	padding-left: 0.25vw;
+}
+
+input[type=submit]{
+	cursor: pointer;
+	background: gold;
+	border-radius: 0;
+	font-family: Friendly Schoolmates;
+	color: #696969;
+	font-weight: bold;
+	height: 3.5vh;
+	top: 5.65vh;
+}
+
+input[type=submit]:hover{
+	color: black;
+	transition: color 1s;
+}
+
+#register{
+	display: none;
+}
+
+#register p{
+	position: relative;
+	left: 5vw;
+	text-align: left;
+	width: 7vw;
+}
+
+#register input[type=text]{
+	position: relative; 
+	top: -2vh; 
+	left: 5vw;
+}
+
+input{
+	outline-style: solid;
+    outline-color: transparent;
+}
+
+#register h3{
+	left: 4.5vw;
+	top: 1.35vh;
+	width: 10vw;
+}
+
+#register input[type=submit]{
+	position: relative;
+	left: 4.5vw;
+	top: 9vh;
+	width: 10vw;
+	height: 5.1vh;
+	font-size: 1.25rem;
+}
+
+#register input[type=file]{
+	position: relative;
+	top: -2vh;
+	left: 13.5vw;
+}
+
+h5{
+	width: 30vw;
+	position: relative;
+	top: -15vh;
+	float: left;
+	text-align: center;
+	font-size: 1rem;
+	color: red;
+}
+
+#loginErrorBox{
+	width: 25vw;
+	height: 19.9vh;
+	background: gold;
+	box-shadow:0 0 0 1600px rgba(0,0,0,0.65);
+	position: relative;
+	top: -40vh;
+	left: 37.5vw;
+	text-align: center;
+	padding-top: 0.1vh;
+	font-family: Friendly Schoolmates;
+	display: none;
+}
+
+#loginErrorBox h3{
+	position: relative;
+	top: -1vh;
+}
+
+#loginErrorBox button{
+	width: 5vw;
+	height: 3.5vh;
+	background: #32CD32;
+	border-width: 0;
+	border-radius: 0.5vw;
+	font-size: 1.1rem;
+	font-family: Friendly Schoolmates;
+}
+
+button:hover{
+	cursor: pointer;
+}

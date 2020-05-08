@@ -1,0 +1,248 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	background: gold;
+	overflow: hidden;
+}
+
+#container{
+	width: 100vw;
+	height: 85vh;
+	background-image: url("../images/garbage.jpg");
+}
+
+#container img{
+	width: 10vw;
+	float: right;
+	position: relative;
+	top: 35vh;
+	right: 17.5vw;
+	border-radius: 4vw;
+}
+
+#left-triangle{
+	width: 45vw;
+  	height: 0;
+  	border-top: 85vh solid #32CD32;
+  	border-right: 15vw solid transparent;
+}
+
+#content{
+	width: 45vw;
+	height: 65vh;
+	position: relative;
+	top: -85vh;
+	padding-top: 10vh;
+}
+
+#content h1{
+	font-family: Coneria Script;
+	font-size: 3.5rem;
+	margin-left: 8vw;
+	margin-bottom: 1vh;
+}
+
+#content h2{
+	font-family: Friendly Schoolmates;
+	font-size: 2.5rem;
+	margin-left: 8vw;
+	margin-top: -1.5vh;
+}
+
+#content h3{
+	font-family: Friendly Schoolmates;
+	font-size: 1.5rem;
+	margin-left: 8vw;
+	margin-top: -2.5vh;
+}
+
+#content p{
+	/*font-family: Constantia;*/
+	font-family: Friendly Schoolmates;
+	font-size: 1.25rem;
+	margin-left: 8vw;
+	margin-top: 8vh;
+}
+
+.halfcircle{
+	position: relative;
+	top: -5vw;
+	float: left;
+	margin-left: 20vw;
+	width: 7vw;
+	height: 7vw;
+}
+
+.halfcircle-Top{
+	width: 5vw;
+	height: 2.5vw;
+	background-color: gold;
+    border-top-left-radius: 3.5vw; 
+    border-top-right-radius: 3.5vw; 
+    border: 1vw solid transparent;
+    border-bottom: 0;
+}
+
+.halfcircle-Bottom{
+	width: 5vw;
+	height: 2.5vw;
+	background-color:  #32CD32;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw; 
+    border: 1vw solid transparent;
+    border-top: 0;
+}
+
+.halfcircle p,h4{
+	font-size: 2.5rem;
+	font-family: Blinkstones;
+	position: relative;
+	top: -15vh;
+	left: 0;
+	margin: 0;
+	color: #696969;
+	text-align: center;
+	height: 10vh;
+	padding-top: 5vh;
+}
+
+.halfcircle h4{
+	padding: 0;
+	text-align: left;
+	font-size: 1.5rem;
+	top: -14vh;
+	color: black;
+	left: 1.5vw;
+}
+
+.halfcircle:hover p{
+	cursor: pointer;
+	color: black;
+	transition: color 0.75s;
+}
+
+#about{
+	height: 65vh;
+	width: 21.5vw;
+	background: gold;
+	position: relative;
+	top: -74vh;
+	left: 37.5vw;
+	border: 0.1vw solid black;
+	border-radius: 2vw;
+	padding-left: 1.75vw;
+	padding-right: 1.75vw;
+	display: none;
+	animation: expand 0.5s;
+}
+
+@keyframes expand{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+
+#about h1{
+	font-family: Friendly Schoolmates;
+	font-size: 2rem;
+	color: black;
+	position: relative;
+	top: -12.5vh;
+	text-align: center;
+}
+
+#about p{
+	font-family: Constantia;
+	font-size: 1rem;
+	color: black;
+	position: relative;
+	top: -10vh;
+}
+
+#about h2{
+	font-family: Blinkstones;
+	font-size: 1.25rem;
+	color:#696969;
+	border: .05vw solid black;
+	border-radius: 1vw;
+	text-align: center;
+	width: 5.5vw;
+	position: relative;
+	top: -5vh;
+	left: 8vw;
+	background: #32CD32;
+}
+
+#about h2:hover{
+	cursor: pointer;
+	color: black;
+	border-color: black;
+	transition: color 0.75s;
+}
+
+/*navbar*/
+
+#navbar{
+	height: 6vh;
+	position: relative;
+	top: -85vh;
+	padding-top: 3vh;
+	padding-left: 2vw;
+	background: rgba(255,255,255,0.8);
+}
+
+#navbar img{
+	width: 2.5vw;
+	position: relative;
+	top: -0.75vh;
+	left: -12.5vw;
+	margin-left: 1vw;
+	border-radius: 0.5vw;
+}
+
+#navbar img:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+#navbar p{
+	position: relative;
+	left: 90vw;
+	background: #32CD32;
+	width: 6vw;
+	height: 3.5vh;
+	border-radius: 1vw;
+	padding-top: 0.5vh;
+	text-align: center;
+	font-family: Friendly Schoolmates;
+	color: #696969;
+	font-size: 1.25rem;
+	top: -6.5vh;
+}
+
+#navbar p:hover{
+	cursor: pointer;
+	color: black;
+	transition: color 1s;
+}
+
+#navbar a, a:visited{
+	font-family: Friendly Schoolmates;
+	color: #696969;
+	text-decoration: none;
+	font-size: 1.25rem;
+	margin-right: 1vw;
+}
+
+#navbar a:hover, a:active {
+    color: black;
+    transition: color 1s;
+}
+
+#profile-pic{
+	width: 2.5vw;
+	height: 5vh;
+	position: relative;
+	float: left;
+}

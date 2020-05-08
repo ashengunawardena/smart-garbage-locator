@@ -1,0 +1,375 @@
+body{
+	width: 100vw;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	background: #32CD32;
+	overflow-x: hidden;
+}
+
+#navbar{
+	height: 6vh;
+	padding-top: 3vh;
+	padding-left: 2vw;
+	background: rgba(255,255,255,0.8);
+	margin-bottom: 2vh;
+}
+
+#navbar img{
+	width: 2.5vw;
+	position: relative;
+	float: right;
+	top: -0.75vh;
+	left: -12.5vw;
+	margin-left: 1vw;
+	border-radius: 0.5vw;
+}
+
+#navbar img:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+
+#navbar a, a:visited{
+	font-family: Friendly Schoolmates;
+	color: #696969;
+	text-decoration: none;
+	font-size: 1.25rem;
+	margin-right: 1vw;
+}
+
+#navbar a:hover, a:active {
+    color: black;
+    transition: color 1s;
+}
+
+#profile-pic{
+	width: 2.5vw;
+	height: 5vh;
+	position: relative;
+	float: left;
+}
+
+.report{
+	width: 89vw;
+	height: 55vh;
+	background: white;
+	border-radius: 1.5vw;
+	position: relative;
+	left: 4vw;
+	float: left;
+	margin-right: 1.5vw; 
+	margin-bottom: 2vh;
+	padding-left: 0.75vw;
+	padding-top: 1vh;
+}
+
+.report h2,h3,p{
+	font-family: Friendly Schoolmates;
+	font-size: 1.05rem;
+	position: relative;
+	top: -1.8vh;
+	left: 0.5vw;
+	color: green;
+}
+
+.report h3{
+	color: #696969;
+	left: 0.75vw;
+	top: -6vh;
+	background: gold;
+	font-size: 1.2rem;
+	width: 15.5vw;
+	text-align: center;
+	padding-top: 0.5vh;
+	height: 3.75vh;
+	border-radius: 0.5vw;
+	margin-right: 1vw;
+	float: left;
+}
+
+.report h3:hover{
+	cursor: pointer;
+	color: black;
+	transition: color 0.75s; 
+}
+
+.report img{
+	width: 35vw;
+	height: 47vh;
+	border-radius: 0.5vw;
+	position: relative;
+	top: -47.5vh;
+	left: 24.5vh;
+}
+
+.report p{
+	font-family: Arial;
+	width: 48vw;
+	top: -4vh;
+	color: black;
+	height: 37vh;
+}
+
+.report h4{
+	position: relative;
+	top: -84.5vh;
+	left: 52.55vw;
+	padding-top: 1.5vh;
+	padding-left: 0.5vw;
+	background: rgba(0,0,0,0.55);
+	width: 2.25vw;
+	height: 8.5vh;
+	font-size: 2.5rem;
+	color: white;
+	border-top-right-radius: 0.75vw;
+	border-bottom-right-radius: 0.75vw; 
+}
+
+.report h4:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.8);
+	transition: background 0.5s;
+}
+
+h5{
+	position: relative;
+	left: 40vw;
+	top: 30vh;
+	width: 20vw;
+	height: 7vh;
+	border-radius: 1vw;
+	background: gold;
+	font-family: Friendly Schoolmates;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 3vh;
+}
+
+#map{
+	width: 92.5vw;
+	height: 86vh;
+	position: fixed;
+	left: 2.5vw;
+	top: -2vh;
+	background: white;
+	border-radius: 1vw;
+	margin-bottom: 2vh;
+	box-shadow:0 0 0 1600px rgba(0,0,0,0.75);
+	z-index: 5;
+	pointer-events: auto;
+	display: none;
+}
+
+h6{
+	font-size: 2.5rem;
+	color: white;
+	position: relative;
+	font-family: Banthink;
+	z-index: 5;
+	left: 5vw;
+	top: -111vh;
+	width: 2vw;
+	float: right;
+	pointer-events: auto;
+	font-weight: normal;
+}
+
+h6:hover{
+	transform: scale(1.2);
+	transition: transform 0.75s;
+	cursor: pointer;
+}
+
+#mapContainer{
+	position: fixed;
+	z-index: 3;
+}
+
+.switch {
+  position: relative;
+  left: 4.5vw;
+  bottom: 1.25vh;
+  display: inline-block;
+  width: 38px;
+  height: 22px;
+  float: left;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input#input1:checked + .slider {
+  background-color: green;
+}
+
+input#input2:checked + .slider {
+  background-color: blue;
+}
+
+input#input3:checked + .slider {
+  background-color: red;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#flagType h2{
+	font-size: 1.25rem;
+	position: relative;
+}
+
+#flagType{
+	height: 29vh;
+	width: 36.5vw;
+	box-shadow:0 0 0 1600px rgba(0,0,0,0.75);
+	background: gold;
+	position: fixed;
+	left: 31vw;
+	top: 30vh;
+	z-index: 5;
+	font-family: Friendly Schoolmates;
+	border-radius: 1vw;
+	padding-left: 1vw;
+	padding-top: 1vh;
+	display: none;
+}
+
+
+#flagType h6{
+	color: #696969;
+	left: 9.5vw;
+	top: -5vh;
+	background: #31F064;
+	font-size: 1.2rem;
+	width: 15.5vw;
+	text-align: center;
+	padding-top: 0.5vh;
+	height: 3.75vh;
+	border-radius: 0.5vw;
+	margin-right: 1vw;
+	float: left;
+	font-family: Friendly Schoolmates;
+	font-weight: bolder;
+}
+
+#flagType h6:hover{
+	transform: scale(1);
+	color: black;
+	transition: color 0.75s;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  background: rgba(0,0,0,0.75);
+  border-radius: 1vw;
+  font-family: Arial;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 5.5vh;
+  left: 54vw;
+  z-index: 2;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
