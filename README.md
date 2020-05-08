@@ -43,3 +43,26 @@ displayed with different icons on a map. More information can be seen when
 such icon is clicked.
 
 * General public can see the news articles and garbage spots on a map.
+
+### Directory Structure
+
+├───database-backup 
+├───p
+│   ├───approved-reports
+│   ├───articles
+│   ├───garbage-locations
+│   ├───incidents
+│   ├───reports
+│   ├───sign-in
+│   └───user-accounts
+├───php
+│       └───vendor
+│           └───phpmailer
+│               └───phpmailer
+│                   ├───language
+│                   └───src
+├───resources   
+    ├───css
+    ├───fonts
+    └───images
+        └───garbage_locations
