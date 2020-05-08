@@ -87,6 +87,10 @@ such icon is clicked.
 
 ### User Interfaces
 
-#### Home Page
+#### Home - Page
 
-![Home](https://user-images.githubusercontent.com/58177462/81407466-13e34600-9159-11ea-9e43-57ce7a04c942.png)
+![Home Page](https://user-images.githubusercontent.com/58177462/81407466-13e34600-9159-11ea-9e43-57ce7a04c942.png)
+
+#### Sign In - Page
+
+![Sign In Page](https://user-images.githubusercontent.com/58177462/81408113-46da0980-915a-11ea-925d-b49e204b8dd9.png)
