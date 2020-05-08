@@ -72,15 +72,15 @@ such icon is clicked.
 │       ├───user_accounts.css
 │       └───index.php 
 ├───php                                     # PHP classes used to provide functionality of the website                           
-│   │───dependencies
-│   ├───mail.php
-│   └───redirect_user.php
-│───resources
+│   │───dependencies                        # PHP dependancies used by below php scripts
+│   ├───mail.php                            # Provides E-mail functionality
+│   └───redirect_user.php                   # Processes user requests and redirects user to correct web page
+│───resources                               # Resources used by the website
 │   ├───css
-│   │   └───fonts.css 
-│   ├───fonts
-│   └───images
-│       └───garbage_locations
+│   │   └───fonts.css                       # Defines custom fonts using font files in below 'fonts' directory
+│   ├───fonts                               # Stores custom font files
+│   └───images                              # Stores images used by User Interfaces of the website
+│       └───garbage_locations               # Stores user uploaded images of garbage locations
 ├───home.css
-└───index.php
+└───index.php                               # Main entry point to the website('Home' webpage)
 ```
