@@ -47,9 +47,9 @@ such icon is clicked.
 ### Directory Structure
 
 ```
-├───database-backup
+├───database-backup                         # Database backup
 │   └───sgl.sql
-├───p
+├───p                                       # Pages of this website
 │   ├───approved-reports
 │   │   ├───approved_reports.css
 │   │   └───index.php 
@@ -71,7 +71,7 @@ such icon is clicked.
 │   └───user-accounts
 │       ├───user_accounts.css
 │       └───index.php 
-├───php
+├───php                                     # PHP classes used to provide functionality of the website                           
 │   │───dependencies
 │   ├───mail.php
 │   └───redirect_user.php
