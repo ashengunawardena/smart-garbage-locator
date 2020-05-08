@@ -51,24 +51,24 @@
     	</div>
 	</noscript>
 	<div id="navbar">
-		<a href="index.php">HOME</a>
-		<a href="garbage locations.php">GARBAGE LOCATIONS</a>
-		<a href="">ARTICLES</a>
+		<a href="../../">HOME</a>
+		<a href="#">GARBAGE LOCATIONS</a>
+		<a href="../articles">ARTICLES</a>
 
 		<?php
 			if(isset($_SESSION["userType"])){
 				if($_SESSION["userType"] == 'admin'){
-					echo "<a href='user accounts.php'>USER ACCOUNTS</a>";
-					echo "<a href='reports.php'>REPORTS</a>";
+					echo "<a href='../user-accounts'>USER ACCOUNTS</a>";
+					echo "<a href='../reports'>REPORTS</a>";
 				}
 				else if($_SESSION["userType"] == 'manager'){
-					echo "<a href='incidents.php'>REPORTED INCIDENTS</a>";
+					echo "<a href='../incidents'>REPORTED INCIDENTS</a>";
 				}
 				else if($_SESSION["userType"] == 'staff'){
-					echo "<a href=''>APPROVED REPORTS</a>";
+					echo "<a href='../approved-reports'>APPROVED REPORTS</a>";
 				}
 				else if($_SESSION["userType"] == 'volunteer'){
-					echo "<a href='reports.php'>REPORTS</a>";
+					echo "<a href='../reports'>REPORTS</a>";
 				}
 			}
 		?>

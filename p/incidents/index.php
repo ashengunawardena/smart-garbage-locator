@@ -67,9 +67,9 @@
     	</div>
 	</noscript>
 	<div id="navbar">
-		<a href="index.php">HOME</a>
-		<a href="garbage locations.php">GARBAGE LOCATIONS</a>
-		<a href="articles.php">ARTICLES</a>
+		<a href="../../">HOME</a>
+		<a href="../garbage-locations">GARBAGE LOCATIONS</a>
+		<a href="../articles">ARTICLES</a>
 		<a href="#">REPORTED INCIDENTS</a>
 
 		<a href='https://plus.google.com/u/0/102452053552533725657'><img src='../../resources/images/gplus_logo.jpg' alt='gplus-logo' class='nav-img'></a>
