@@ -22,6 +22,8 @@ posted by the CMS.
 
 ### Functional Requirements
 
+* There are five roles: admin, captain, volunteer, staff, and public.
+
 * There should be an “Administrator” who can create accounts for the captain
 and collecting staff.
 
