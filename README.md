@@ -1,5 +1,13 @@
 ## Smart Garbage Locator
 
+## Table of Content
+
+* [Project Scenario](https://github.com/ashengunawardena/smart-garbage-locator#project-scenario)
+* [Functional Requirements](https://github.com/ashengunawardena/smart-garbage-locator#functional-requirements)
+* [Directory Structure](https://github.com/ashengunawardena/smart-garbage-locator#directory-structure)
+* [User Interfaces](https://github.com/ashengunawardena/smart-garbage-locator#user-interfaces)
+* [Technology Stack](https://github.com/ashengunawardena/smart-garbage-locator#technology-stack)
+
 ### Project Scenario
 
 Colombo Municipal Council (CMC) is planning to launch a web site to optimize
